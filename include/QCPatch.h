@@ -73,9 +73,9 @@ typedef enum
 
 typedef enum
 {
-	kQCPatchTimeModeIdle,			// 0 (e.g., "Math", "Image With String")
+	kQCPatchTimeModeNone,			// 0 (e.g., "Math", "Image With String")
 	kQCPatchTimeModeTimeBase,		// 1 (e.g., "Patch Time", "Interpolation", "Random")
-	kQCPatchTimeModeNone,			// 2 (e.g., "Keyboard", "Mouse", "Tablet", "Repository Compositions")
+	kQCPatchTimeModeIdle,			// 2 (e.g., "Keyboard", "Mouse", "Tablet", "Repository Compositions")
 } QCPatchTimeMode;
 
 
