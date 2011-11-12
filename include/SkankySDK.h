@@ -76,6 +76,30 @@ static inline NSString *KIExpandPath(GFNode *patch,NSString *path)
 	return [[[url path] stringByDeletingLastPathComponent] stringByAppendingPathComponent:path];
 }
 
+static inline NSString *KISystemVersionString(void)
+{
+	SInt32 majorVersion, minorVersion;
+	Gestalt(gestaltSystemVersionMajor, &majorVersion);
+	Gestalt(gestaltSystemVersionMinor, &minorVersion);
+	return [NSString stringWithFormat:@"%d.%d",majorVersion,minorVersion];
+}
+
+// to be called at the beginning of +registerNodesWithManager:, to avoid registering patches on incompatible system versions as defined in the bundle's Info.plist.
+#define KIEnsureSystemVersion																\
+	{																						\
+		NSDictionary *bundleInfo = [[NSBundle bundleForClass:[self class]] infoDictionary];	\
+		NSString *pluginMin = [bundleInfo objectForKey:@"KIMinimumSystemVersion"];			\
+		NSString *pluginMax = [bundleInfo objectForKey:@"KIMaximumSystemVersion"];			\
+		if( [pluginMin compare:KISystemVersionString()] == NSOrderedDescending				\
+			|| [pluginMax compare:KISystemVersionString()] == NSOrderedAscending )			\
+		{																					\
+			NSLog(@"%@ isn't compatible with Mac OS %@.  Not registering this plugin.",		\
+				[bundleInfo objectForKey:@"CFBundleName"],									\
+				KISystemVersionString());													\
+			return;																			\
+		}																					\
+	}
+
 static inline BOOL KIOnLeopard() __attribute__ ((pure));
 static inline BOOL KIOnLeopard()
 {
