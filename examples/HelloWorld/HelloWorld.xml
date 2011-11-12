@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--optional-->
+<!--
+	<key>.identifiers</key>
+	<dict>
+		<key>[an identifier]</key>
+		<dict>
+			<key>nodeAttributes</key>
+			...[values to override for this identifier]...
+			<key>inputAttributes</key>
+			<key>outputAttributes</key>
+		</dict>
+	</dict>
+-->
+	<!--required-->
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Hello World</string>
+		<key>categories</key>
+		<array>
+			<string>Custom Patch</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright [YEAR] [COMPANY]. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch outputs a string when the input is set to true.</string>
+		<key>aliasNames</key>
+		<array>
+			<string>alias for searching</string>
+		</array>
+<!--
+	examples are automatically prepended with `file://localhost/Developer//Library/Quartz%20Composer/Examples/Patches//`, so it's not too useful to us..
+		<key>examples</key>
+		<array>
+			<string>example.qtz</string>
+		</array>
+-->
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputFoo</key>
+		<dict>
+			<key>name</key>
+			<string>Foo</string>
+			<key>description</key>
+			<string>Foo Description</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputBar</key>
+		<dict>
+			<key>name</key>
+			<string>Bar</string>
+			<key>description</key>
+			<string>Bar Description</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

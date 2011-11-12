@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0527110C87B3AD00042510 /* MouseDeltaUI.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2A05270F0C87B3AD00042510 /* MouseDeltaUI.nib */; };
+		2A6359270C87B6930052EA89 /* MouseDeltaUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6359260C87B6930052EA89 /* MouseDeltaUI.m */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F1111F7D089D19DD00C2708E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F7C089D19DD00C2708E /* OpenGL.framework */; };
+		F1111F81089D19ED00C2708E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F80089D19ED00C2708E /* Quartz.framework */; };
+		F1111F8B089D1A4100C2708E /* MouseDelta.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1111F89089D1A4100C2708E /* MouseDelta.xml */; };
+		F1481782089E5F53006FD276 /* MouseDelta.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481781089E5F53006FD276 /* MouseDelta.m */; };
+		F1481793089E5FE3006FD276 /* MouseDeltaPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481792089E5FE3006FD276 /* MouseDeltaPrincipal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2A0527100C87B3AD00042510 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MouseDeltaUI.nib; sourceTree = "<group>"; };
+		2A6359250C87B6930052EA89 /* MouseDeltaUI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MouseDeltaUI.h; sourceTree = "<group>"; };
+		2A6359260C87B6930052EA89 /* MouseDeltaUI.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MouseDeltaUI.m; sourceTree = "<group>"; };
+		2AF5D8140CCECC6600E66DE7 /* GFGraph.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFGraph.h; sourceTree = "<group>"; };
+		2AF5D8150CCECC6600E66DE7 /* GFGraphView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFGraphView.h; sourceTree = "<group>"; };
+		2AF5D8160CCECC6600E66DE7 /* GFList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFList.h; sourceTree = "<group>"; };
+		2AF5D8170CCECC6600E66DE7 /* GFNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFNode.h; sourceTree = "<group>"; };
+		2AF5D8180CCECC6600E66DE7 /* GFNodeActor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFNodeActor.h; sourceTree = "<group>"; };
+		2AF5D8190CCECC6600E66DE7 /* GFNodeClassDescription.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFNodeClassDescription.h; sourceTree = "<group>"; };
+		2AF5D81A0CCECC6600E66DE7 /* GFNodeManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFNodeManager.h; sourceTree = "<group>"; };
+		2AF5D81B0CCECC6600E66DE7 /* GFPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GFPort.h; sourceTree = "<group>"; };
+		2AF5D81C0CCECC6600E66DE7 /* QCBooleanPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCBooleanPort.h; sourceTree = "<group>"; };
+		2AF5D81D0CCECC6600E66DE7 /* QCCache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCCache.h; sourceTree = "<group>"; };
+		2AF5D81E0CCECC6600E66DE7 /* QCCGLContext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCCGLContext.h; sourceTree = "<group>"; };
+		2AF5D81F0CCECC6600E66DE7 /* QCColorPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCColorPort.h; sourceTree = "<group>"; };
+		2AF5D8200CCECC6600E66DE7 /* QCContext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCContext.h; sourceTree = "<group>"; };
+		2AF5D8210CCECC6600E66DE7 /* QCGraphicsContext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCGraphicsContext.h; sourceTree = "<group>"; };
+		2AF5D8220CCECC6600E66DE7 /* QCImageBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCImageBuffer.h; sourceTree = "<group>"; };
+		2AF5D8230CCECC6600E66DE7 /* QCImageManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCImageManager.h; sourceTree = "<group>"; };
+		2AF5D8240CCECC6600E66DE7 /* QCImagePort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCImagePort.h; sourceTree = "<group>"; };
+		2AF5D8250CCECC6600E66DE7 /* QCImageTextureBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCImageTextureBuffer.h; sourceTree = "<group>"; };
+		2AF5D8260CCECC6600E66DE7 /* QCIndexPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCIndexPort.h; sourceTree = "<group>"; };
+		2AF5D8270CCECC6600E66DE7 /* QCInspector.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCInspector.h; sourceTree = "<group>"; };
+		2AF5D8280CCECC6600E66DE7 /* QCInterpolationPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCInterpolationPort.h; sourceTree = "<group>"; };
+		2AF5D8290CCECC6600E66DE7 /* QCList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCList.h; sourceTree = "<group>"; };
+		2AF5D82A0CCECC6600E66DE7 /* QCNumberPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCNumberPort.h; sourceTree = "<group>"; };
+		2AF5D82B0CCECC6600E66DE7 /* QCObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCObject.h; sourceTree = "<group>"; };
+		2AF5D82C0CCECC6600E66DE7 /* QCObjectPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCObjectPort.h; sourceTree = "<group>"; };
+		2AF5D82D0CCECC6600E66DE7 /* QCOpenGLContext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCOpenGLContext.h; sourceTree = "<group>"; };
+		2AF5D82E0CCECC6600E66DE7 /* QCOpenGLPort_Blending.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCOpenGLPort_Blending.h; sourceTree = "<group>"; };
+		2AF5D82F0CCECC6600E66DE7 /* QCOpenGLPort_Color.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCOpenGLPort_Color.h; sourceTree = "<group>"; };
+		2AF5D8300CCECC6600E66DE7 /* QCOpenGLPort_Culling.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCOpenGLPort_Culling.h; sourceTree = "<group>"; };
+		2AF5D8310CCECC6600E66DE7 /* QCOpenGLPort_Image.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCOpenGLPort_Image.h; sourceTree = "<group>"; };
+		2AF5D8320CCECC6600E66DE7 /* QCOpenGLPort_ZBuffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCOpenGLPort_ZBuffer.h; sourceTree = "<group>"; };
+		2AF5D8330CCECC6600E66DE7 /* QCPatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCPatch.h; sourceTree = "<group>"; };
+		2AF5D8340CCECC6600E66DE7 /* QCPatchActor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCPatchActor.h; sourceTree = "<group>"; };
+		2AF5D8350CCECC6600E66DE7 /* QCPatchRenderingInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCPatchRenderingInfo.h; sourceTree = "<group>"; };
+		2AF5D8360CCECC6600E66DE7 /* QCPatchView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCPatchView.h; sourceTree = "<group>"; };
+		2AF5D8370CCECC6600E66DE7 /* QCPixelFormat.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCPixelFormat.h; sourceTree = "<group>"; };
+		2AF5D8380CCECC6600E66DE7 /* QCPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCPort.h; sourceTree = "<group>"; };
+		2AF5D8390CCECC6600E66DE7 /* QCProtocols.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCProtocols.h; sourceTree = "<group>"; };
+		2AF5D83A0CCECC6600E66DE7 /* QCProxyPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCProxyPort.h; sourceTree = "<group>"; };
+		2AF5D83B0CCECC6600E66DE7 /* QCRenderState.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCRenderState.h; sourceTree = "<group>"; };
+		2AF5D83C0CCECC6600E66DE7 /* QCResource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCResource.h; sourceTree = "<group>"; };
+		2AF5D83D0CCECC6600E66DE7 /* QCResourcePool.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCResourcePool.h; sourceTree = "<group>"; };
+		2AF5D83E0CCECC6600E66DE7 /* QCStringPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCStringPort.h; sourceTree = "<group>"; };
+		2AF5D83F0CCECC6600E66DE7 /* QCStructure.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCStructure.h; sourceTree = "<group>"; };
+		2AF5D8400CCECC6600E66DE7 /* QCStructurePort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCStructurePort.h; sourceTree = "<group>"; };
+		2AF5D8410CCECC6600E66DE7 /* QCTableView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCTableView.h; sourceTree = "<group>"; };
+		2AF5D8420CCECC6600E66DE7 /* QCTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCTypes.h; sourceTree = "<group>"; };
+		2AF5D8430CCECC6600E66DE7 /* QCVirtualPort.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QCVirtualPort.h; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* MouseDelta_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseDelta_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* MouseDelta.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseDelta.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		F1111F7C089D19DD00C2708E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		F1111F80089D19ED00C2708E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		F1111F8A089D1A4100C2708E /* English */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = text.xml; name = English; path = English.lproj/MouseDelta.xml; sourceTree = "<group>"; };
+		F1481780089E5F53006FD276 /* MouseDelta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseDelta.h; sourceTree = "<group>"; };
+		F1481781089E5F53006FD276 /* MouseDelta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseDelta.m; sourceTree = "<group>"; };
+		F1481791089E5FE3006FD276 /* MouseDeltaPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouseDeltaPrincipal.h; sourceTree = "<group>"; };
+		F1481792089E5FE3006FD276 /* MouseDeltaPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouseDeltaPrincipal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				F1111F7D089D19DD00C2708E /* OpenGL.framework in Frameworks */,
+				F1111F81089D19ED00C2708E /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* MouseDelta */ = {
+			isa = PBXGroup;
+			children = (
+				2A6359250C87B6930052EA89 /* MouseDeltaUI.h */,
+				2A6359260C87B6930052EA89 /* MouseDeltaUI.m */,
+				F1481791089E5FE3006FD276 /* MouseDeltaPrincipal.h */,
+				F1481792089E5FE3006FD276 /* MouseDeltaPrincipal.m */,
+				F1481780089E5F53006FD276 /* MouseDelta.h */,
+				F1481781089E5F53006FD276 /* MouseDelta.m */,
+				32DBCF630370AF2F00C91783 /* MouseDelta_Prefix.pch */,
+				2B65ED580C20190200477116 /* QuartzComposer */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = MouseDelta;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A05270F0C87B3AD00042510 /* MouseDeltaUI.nib */,
+				F1111F89089D1A4100C2708E /* MouseDelta.xml */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1111F80089D19ED00C2708E /* Quartz.framework */,
+				F1111F7C089D19DD00C2708E /* OpenGL.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* MouseDelta.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B65ED580C20190200477116 /* QuartzComposer */ = {
+			isa = PBXGroup;
+			children = (
+				2AF5D8140CCECC6600E66DE7 /* GFGraph.h */,
+				2AF5D8150CCECC6600E66DE7 /* GFGraphView.h */,
+				2AF5D8160CCECC6600E66DE7 /* GFList.h */,
+				2AF5D8170CCECC6600E66DE7 /* GFNode.h */,
+				2AF5D8180CCECC6600E66DE7 /* GFNodeActor.h */,
+				2AF5D8190CCECC6600E66DE7 /* GFNodeClassDescription.h */,
+				2AF5D81A0CCECC6600E66DE7 /* GFNodeManager.h */,
+				2AF5D81B0CCECC6600E66DE7 /* GFPort.h */,
+				2AF5D81C0CCECC6600E66DE7 /* QCBooleanPort.h */,
+				2AF5D81D0CCECC6600E66DE7 /* QCCache.h */,
+				2AF5D81E0CCECC6600E66DE7 /* QCCGLContext.h */,
+				2AF5D81F0CCECC6600E66DE7 /* QCColorPort.h */,
+				2AF5D8200CCECC6600E66DE7 /* QCContext.h */,
+				2AF5D8210CCECC6600E66DE7 /* QCGraphicsContext.h */,
+				2AF5D8220CCECC6600E66DE7 /* QCImageBuffer.h */,
+				2AF5D8230CCECC6600E66DE7 /* QCImageManager.h */,
+				2AF5D8240CCECC6600E66DE7 /* QCImagePort.h */,
+				2AF5D8250CCECC6600E66DE7 /* QCImageTextureBuffer.h */,
+				2AF5D8260CCECC6600E66DE7 /* QCIndexPort.h */,
+				2AF5D8270CCECC6600E66DE7 /* QCInspector.h */,
+				2AF5D8280CCECC6600E66DE7 /* QCInterpolationPort.h */,
+				2AF5D8290CCECC6600E66DE7 /* QCList.h */,
+				2AF5D82A0CCECC6600E66DE7 /* QCNumberPort.h */,
+				2AF5D82B0CCECC6600E66DE7 /* QCObject.h */,
+				2AF5D82C0CCECC6600E66DE7 /* QCObjectPort.h */,
+				2AF5D82D0CCECC6600E66DE7 /* QCOpenGLContext.h */,
+				2AF5D82E0CCECC6600E66DE7 /* QCOpenGLPort_Blending.h */,
+				2AF5D82F0CCECC6600E66DE7 /* QCOpenGLPort_Color.h */,
+				2AF5D8300CCECC6600E66DE7 /* QCOpenGLPort_Culling.h */,
+				2AF5D8310CCECC6600E66DE7 /* QCOpenGLPort_Image.h */,
+				2AF5D8320CCECC6600E66DE7 /* QCOpenGLPort_ZBuffer.h */,
+				2AF5D8330CCECC6600E66DE7 /* QCPatch.h */,
+				2AF5D8340CCECC6600E66DE7 /* QCPatchActor.h */,
+				2AF5D8350CCECC6600E66DE7 /* QCPatchRenderingInfo.h */,
+				2AF5D8360CCECC6600E66DE7 /* QCPatchView.h */,
+				2AF5D8370CCECC6600E66DE7 /* QCPixelFormat.h */,
+				2AF5D8380CCECC6600E66DE7 /* QCPort.h */,
+				2AF5D8390CCECC6600E66DE7 /* QCProtocols.h */,
+				2AF5D83A0CCECC6600E66DE7 /* QCProxyPort.h */,
+				2AF5D83B0CCECC6600E66DE7 /* QCRenderState.h */,
+				2AF5D83C0CCECC6600E66DE7 /* QCResource.h */,
+				2AF5D83D0CCECC6600E66DE7 /* QCResourcePool.h */,
+				2AF5D83E0CCECC6600E66DE7 /* QCStringPort.h */,
+				2AF5D83F0CCECC6600E66DE7 /* QCStructure.h */,
+				2AF5D8400CCECC6600E66DE7 /* QCStructurePort.h */,
+				2AF5D8410CCECC6600E66DE7 /* QCTableView.h */,
+				2AF5D8420CCECC6600E66DE7 /* QCTypes.h */,
+				2AF5D8430CCECC6600E66DE7 /* QCVirtualPort.h */,
+			);
+			path = QuartzComposer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* MouseDelta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "MouseDelta" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				E704279E130D99BE00F2BCDE /* PostProcessing */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseDelta;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = MouseDelta;
+			productReference = 8D5B49B6048680CD000E48DA /* MouseDelta.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "MouseDelta" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* MouseDelta */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* MouseDelta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1111F8B089D1A4100C2708E /* MouseDelta.xml in Resources */,
+				2A0527110C87B3AD00042510 /* MouseDeltaUI.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E704279E130D99BE00F2BCDE /* PostProcessing */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = PostProcessing;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "php /Library/Frameworks/SkankySDK.framework/Resources/plugin-postprocess.php \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1481782089E5F53006FD276 /* MouseDelta.m in Sources */,
+				F1481793089E5FE3006FD276 /* MouseDeltaPrincipal.m in Sources */,
+				2A6359270C87B6930052EA89 /* MouseDeltaUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A05270F0C87B3AD00042510 /* MouseDeltaUI.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A0527100C87B3AD00042510 /* English */,
+			);
+			name = MouseDeltaUI.nib;
+			sourceTree = "<group>";
+		};
+		F1111F89089D1A4100C2708E /* MouseDelta.xml */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1111F8A089D1A4100C2708E /* English */,
+			);
+			name = MouseDelta.xml;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF69CC909F19DD300CAA391 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MouseDelta_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = MouseDelta;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2BF69CCA09F19DD300CAA391 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MouseDelta_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = MouseDelta;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2BF69CCB09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MouseDelta_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PREBINDING = NO;
+				PRODUCT_NAME = MouseDelta;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		2BF69CCD09F19DD300CAA391 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+			};
+			name = Development;
+		};
+		2BF69CCE09F19DD300CAA391 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				SYMROOT = $TMPDIR/$FULL_PRODUCT_NAME/build;
+			};
+			name = Deployment;
+		};
+		2BF69CCF09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "MouseDelta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CC909F19DD300CAA391 /* Development */,
+				2BF69CCA09F19DD300CAA391 /* Deployment */,
+				2BF69CCB09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "MouseDelta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CCD09F19DD300CAA391 /* Development */,
+				2BF69CCE09F19DD300CAA391 /* Deployment */,
+				2BF69CCF09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

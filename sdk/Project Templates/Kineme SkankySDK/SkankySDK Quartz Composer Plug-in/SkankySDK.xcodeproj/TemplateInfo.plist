@@ -1,0 +1,14 @@
+{
+	FilesToRename = {
+		"Project_Prefix.pch" = "«PROJECTNAMEASIDENTIFIER»_Prefix.pch";
+		"CustomPluginPrincipal.h" = "«PROJECTNAMEASIDENTIFIER»Principal.h";
+		"CustomPluginPrincipal.m" = "«PROJECTNAMEASIDENTIFIER»Principal.m";
+	};
+	FilesToMacroExpand = (
+		"Info.plist",
+		"«PROJECTNAMEASIDENTIFIER»_Prefix.pch",
+		"«PROJECTNAMEASIDENTIFIER»Principal.m",
+		"«PROJECTNAMEASIDENTIFIER»Principal.h",
+	);
+	Description = "This project builds a Quartz Composer Plug-In using Kineme's SkankySDK";
+}

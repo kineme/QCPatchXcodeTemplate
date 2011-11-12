@@ -1,0 +1,4 @@
+{
+	MainTemplateFile = "class.xml";
+	Description = "An XML file with stub SkankySDK metadata.";
+}

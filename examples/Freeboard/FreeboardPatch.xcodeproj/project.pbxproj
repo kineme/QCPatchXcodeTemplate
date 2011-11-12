@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7042735130D975800F2BCDE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1111F80089D19ED00C2708E /* Quartz.framework */; };
+		E7042736130D976000F2BCDE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		F1111F8B089D1A4100C2708E /* FreeboardPatch.xml in Resources */ = {isa = PBXBuildFile; fileRef = F1111F89089D1A4100C2708E /* FreeboardPatch.xml */; };
+		F1481782089E5F53006FD276 /* FreeboardPatch.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481781089E5F53006FD276 /* FreeboardPatch.m */; };
+		F1481793089E5FE3006FD276 /* FreeboardPatchPrincipal.m in Sources */ = {isa = PBXBuildFile; fileRef = F1481792089E5FE3006FD276 /* FreeboardPatchPrincipal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2ABF77AB111E8C8B009DC959 /* SkankySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkankySDK.framework; path = /Library/Frameworks/SkankySDK.framework; sourceTree = "<absolute>"; };
+		2AEEDFFB0FA9F1A300DC8A1E /* KinemeOrange.icon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KinemeOrange.icon; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* FreeboardPatch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeboardPatch_Prefix.pch; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* FreeboardPatch.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeboardPatch.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1111F80089D19ED00C2708E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		F1111F8A089D1A4100C2708E /* English */ = {isa = PBXFileReference; fileEncoding = 0; lastKnownFileType = text.xml; name = English; path = English.lproj/FreeboardPatch.xml; sourceTree = "<group>"; };
+		F1481780089E5F53006FD276 /* FreeboardPatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeboardPatch.h; sourceTree = "<group>"; };
+		F1481781089E5F53006FD276 /* FreeboardPatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeboardPatch.m; sourceTree = "<group>"; };
+		F1481791089E5FE3006FD276 /* FreeboardPatchPrincipal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeboardPatchPrincipal.h; sourceTree = "<group>"; };
+		F1481792089E5FE3006FD276 /* FreeboardPatchPrincipal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeboardPatchPrincipal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7042735130D975800F2BCDE /* Quartz.framework in Frameworks */,
+				E7042736130D976000F2BCDE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* FreeboardPatch */ = {
+			isa = PBXGroup;
+			children = (
+				2AB830650CDDF334005AB050 /* Patches */,
+				F1481791089E5FE3006FD276 /* FreeboardPatchPrincipal.h */,
+				F1481792089E5FE3006FD276 /* FreeboardPatchPrincipal.m */,
+				32DBCF630370AF2F00C91783 /* FreeboardPatch_Prefix.pch */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = FreeboardPatch;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				2ABF77AB111E8C8B009DC959 /* SkankySDK.framework */,
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AEEDFFB0FA9F1A300DC8A1E /* KinemeOrange.icon */,
+				F1111F89089D1A4100C2708E /* FreeboardPatch.xml */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1111F80089D19ED00C2708E /* Quartz.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* FreeboardPatch.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB830650CDDF334005AB050 /* Patches */ = {
+			isa = PBXGroup;
+			children = (
+				F1481780089E5F53006FD276 /* FreeboardPatch.h */,
+				F1481781089E5F53006FD276 /* FreeboardPatch.m */,
+			);
+			name = Patches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* FreeboardPatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "FreeboardPatch" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				8D5B49AF048680CD000E48DA /* Resources */,
+				2AEEDFFE0FA9F1B900DC8A1E /* Strip and Brand */,
+				2BA4226B0BFBAF8300DE1E36 /* Install */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeboardPatch;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = FreeboardPatch;
+			productReference = 8D5B49B6048680CD000E48DA /* FreeboardPatch.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "FreeboardPatch" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* FreeboardPatch */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* FreeboardPatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1111F8B089D1A4100C2708E /* FreeboardPatch.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AEEDFFE0FA9F1B900DC8A1E /* Strip and Brand */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Strip and Brand";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Finder doesn't seem to load .icns files within .plugin bundles.  So, we use SetFile and resources instead :(\nRez KinemeOrange.icon -o \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME/Icon`echo -e '\\\\r'`\"\nSetFile -a C \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"\nSetFile -a V \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\"/Icon*\n\n# make an unstripped copy for profiling/debugging\n#cp -R \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME.unstripped\"\n# this is the deployed version (stripped)\nstrip -u -r \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME/Contents/MacOS/\"*\n";
+		};
+		2BA4226B0BFBAF8300DE1E36 /* Install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Install;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$HOME/Library/Graphics/Quartz Composer Patches/\"\nrm -Rf \"$HOME/Library/Graphics/Quartz Composer Patches/$FULL_PRODUCT_NAME/\"\nmv \"$TARGET_BUILD_DIR/$FULL_PRODUCT_NAME\" \"$HOME/Library/Graphics/Quartz Composer Patches/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1481782089E5F53006FD276 /* FreeboardPatch.m in Sources */,
+				F1481793089E5FE3006FD276 /* FreeboardPatchPrincipal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1111F89089D1A4100C2708E /* FreeboardPatch.xml */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1111F8A089D1A4100C2708E /* English */,
+			);
+			name = FreeboardPatch.xml;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF69CC909F19DD300CAA391 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FreeboardPatch_Prefix.pch;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "-fomit-frame-pointer";
+				PREBINDING = NO;
+				PRODUCT_NAME = FreeboardPatch;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Development;
+		};
+		2BF69CCA09F19DD300CAA391 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FreeboardPatch_Prefix.pch;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "-fomit-frame-pointer";
+				PREBINDING = NO;
+				PRODUCT_NAME = FreeboardPatch;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Deployment;
+		};
+		2BF69CCB09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FreeboardPatch_Prefix.pch;
+				GCC_STRICT_ALIASING = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "-fomit-frame-pointer";
+				PREBINDING = NO;
+				PRODUCT_NAME = FreeboardPatch;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Default;
+		};
+		2BF69CCD09F19DD300CAA391 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				SYMROOT = $TMPDIR/build;
+			};
+			name = Development;
+		};
+		2BF69CCE09F19DD300CAA391 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				SYMROOT = $TMPDIR/$FULL_PRODUCT_NAME/build;
+			};
+			name = Deployment;
+		};
+		2BF69CCF09F19DD300CAA391 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+					ppc64,
+					x86_64,
+				);
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_OBJC_GC = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				SYMROOT = $TMPDIR/build;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF69CC809F19DD300CAA391 /* Build configuration list for PBXNativeTarget "FreeboardPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CC909F19DD300CAA391 /* Development */,
+				2BF69CCA09F19DD300CAA391 /* Deployment */,
+				2BF69CCB09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2BF69CCC09F19DD300CAA391 /* Build configuration list for PBXProject "FreeboardPatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF69CCD09F19DD300CAA391 /* Development */,
+				2BF69CCE09F19DD300CAA391 /* Deployment */,
+				2BF69CCF09F19DD300CAA391 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

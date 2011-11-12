@@ -1,0 +1,4 @@
+@interface «FILEBASENAMEASIDENTIFIER» : QCInspector
+{
+}
+@end

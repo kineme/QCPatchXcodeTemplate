@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Custom Patch</string>
+		<key>categories</key>
+		<array>
+			<string>Custom Patch</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 __MyCompanyName__. All rights reserved.</string>
+		<key>description</key>
+		<string>A Quartz Composer Patch</string>
+		<key>name</key>
+		<string>MouseDelta</string>
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputFoo</key>
+		<dict>
+			<key>description</key>
+			<string>Foo</string>
+			<key>name</key>
+			<string>Foo Foo</string>
+		</dict>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputBar</key>
+		<dict>
+			<key>description</key>
+			<string>Bar</string>
+			<key>name</key>
+			<string>Bar Bar</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

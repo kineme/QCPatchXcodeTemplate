@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>nodeAttributes</key>
+	<dict>
+		<key>category</key>
+		<string>Kineme Freeboard</string>
+		<key>categories</key>
+		<array>
+			<string>Kineme Freeboard</string>
+		</array>
+		<key>copyright</key>
+		<string>Copyright 2009 Kosada Incorporated. All rights reserved.</string>
+		<key>description</key>
+		<string>This patch outputs a string of the latest key press, making typing possible.</string>
+		<key>name</key>
+		<string>FreeboardPatch</string>
+	</dict>
+	<key>outputAttributes</key>
+	<dict>
+		<key>outputChar</key>
+		<dict>
+			<key>description</key>
+			<string>Output characters for current event (as a string)</string>
+			<key>name</key>
+			<string>Output Character</string>
+		</dict>
+		<key>outputCapsLockKey</key>
+		<dict>
+			<key>description</key>
+			<string>Caps Lock state</string>
+			<key>name</key>
+			<string>Caps Lock</string>
+		</dict>
+		<key>outputShiftKey</key>
+		<dict>
+			<key>description</key>
+			<string>Shift key state</string>
+			<key>name</key>
+			<string>Shift</string>
+		</dict>
+		<key>outputFunctionKey</key>
+		<dict>
+			<key>description</key>
+			<string>Function key state</string>
+			<key>name</key>
+			<string>Function</string>
+		</dict>
+		<key>outputControlKey</key>
+		<dict>
+			<key>description</key>
+			<string>Control Kkey state</string>
+			<key>name</key>
+			<string>Control</string>
+		</dict>
+		<key>outputOptionKey</key>
+		<dict>
+			<key>description</key>
+			<string>Option key state</string>
+			<key>name</key>
+			<string>Option</string>
+		</dict>
+		<key>outputCommandKey</key>
+		<dict>
+			<key>description</key>
+			<string>Command key state</string>
+			<key>name</key>
+			<string>Command</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

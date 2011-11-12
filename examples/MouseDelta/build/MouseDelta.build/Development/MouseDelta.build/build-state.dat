@@ -1,0 +1,1208 @@
+TMouseDelta
+v7
+r0
+t319658667.143830
+cCheck dependencies
+cProcessInfoPlistFile /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist Info.plist
+cCpResource build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDelta.xml English.lproj/MouseDelta.xml
+cStripNIB /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/English.lproj/MouseDeltaUI.nib
+cProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-hfpindlcmogjnadisxabmbrpcgzi/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-gfcqpyfyzxhvshhgidsqxafxnjaj/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dvonzbywmzfhllfrlujaqntbkmdk/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta normal x86_64
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta normal i386
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta normal ppc
+cCreateUniversalBinary /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta normal "x86_64 i386 ppc"
+cPhaseScriptExecution PostProcessing /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+cTouch /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004CD4F7840000000000043330
+t1289025412
+s275248
+
+N/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A1249D4000000000000A5F0
+t1242712532
+s42480
+
+N/System/Library/Frameworks/QuartzCore.framework/Headers/CVBase.h
+c000000004C23B7E7000000000000001E
+t1277409255
+s30
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/English.lproj/MouseDelta.xml
+c000000004C7EA06600000000000003BA
+t1283367014
+s954
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/English.lproj/MouseDeltaUI.nib
+c000000004C7EA06600000000000000CC
+t1283367014
+s204
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.h
+c000000004C7EA0670000000000000157
+t1283367015
+s343
+i"QCPatch.h"
+i"QCOpenGLContext.h"
+i"QCNumberPort.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m
+c000000004C7EA06700000000000003C0
+t1283367015
+s960
+i"MouseDelta.h"
+i"MouseDeltaUI.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.h
+c000000004C7EA06700000000000000B0
+t1283367015
+s176
+i"QCProtocols.h"
+i"GFNodeManager.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m
+c000000004C7EA0670000000000000184
+t1283367015
+s388
+i"MouseDeltaPrincipal.h"
+i"MouseDelta.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.h
+c000000004C7EA0670000000000000098
+t1283367015
+s152
+i<Cocoa/Cocoa.h>
+i"QCPatch.h"
+i"QCInspector.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m
+c000000004C7EA0670000000000000123
+t1283367015
+s291
+i"MouseDeltaUI.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta_Prefix.pch
+c000000004C7EA0670000000000000098
+t1283367015
+s152
+i<Cocoa/Cocoa.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/GFGraph.h
+c000000004C7EA06700000000000009A2
+t1283367015
+s2466
+i<GFNode.h>
+i<GFList.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/GFList.h
+c000000004C7EA0670000000000000861
+t1283367015
+s2145
+i"QCTypes.h"
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/GFNode.h
+c000000004C7EA0670000000000000D2C
+t1283367015
+s3372
+i<QCProtocols.h>
+i<GFList.h>
+i<GFNodeClassDescription.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/GFNodeClassDescription.h
+c000000004C7EA06700000000000002A7
+t1283367015
+s679
+i<GFList.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/GFNodeManager.h
+c000000004C7EA067000000000000062C
+t1283367015
+s1580
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/GFPort.h
+c000000004C7EA06700000000000003F9
+t1283367015
+s1017
+i<GFNode.h>
+i<GFPort.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCBooleanPort.h
+c000000004C7EA067000000000000038B
+t1283367015
+s907
+i<QCPort.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCCGLContext.h
+c000000004C7EA0670000000000000E2C
+t1283367015
+s3628
+i<QCResource.h>
+i<QCPixelFormat.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCCache.h
+c000000004C7EA0670000000000000DC4
+t1283367015
+s3524
+i<QCProtocols.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCContext.h
+c000000004C7EA06700000000000003A1
+t1283367015
+s929
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCGraphicsContext.h
+c000000004C7EA06700000000000006B5
+t1283367015
+s1717
+i<QCContext.h>
+i<QCImageManager.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCImageManager.h
+c000000004C7EA0670000000000001741
+t1283367015
+s5953
+i<QCProtocols.h>
+i<QCCGLContext.h>
+i<QCResourcePool.h>
+i<GFList.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCInspector.h
+c000000004C7EA0670000000000000175
+t1283367015
+s373
+i<QCPatch.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCNumberPort.h
+c000000004C7EA0670000000000000416
+t1283367015
+s1046
+i<QCPort.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCOpenGLContext.h
+c000000004C7EA0670000000000000C6C
+t1283367015
+s3180
+i<QCGraphicsContext.h>
+i<QCCGLContext.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCPatch.h
+c000000004C7EA0670000000000001EE6
+t1283367015
+s7910
+i<GFGraph.h>
+i<QCPatchRenderingInfo.h>
+i<QCRenderState.h>
+i<QCBooleanPort.h>
+i<QCNumberPort.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCPatchRenderingInfo.h
+c000000004C7EA067000000000000021F
+t1283367015
+s543
+i<QCContext.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCPixelFormat.h
+c000000004C7EA06700000000000002D7
+t1283367015
+s727
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCPort.h
+c000000004C7EA0670000000000000966
+t1283367015
+s2406
+i<GFPort.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCProtocols.h
+c000000004C7EA067000000000000157D
+t1283367015
+s5501
+i<QCTypes.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCRenderState.h
+c000000004C7EA06700000000000000F7
+t1283367015
+s247
+i<QCContext.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCResource.h
+c000000004C7EA0670000000000000187
+t1283367015
+s391
+i<QCResourcePool.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCResourcePool.h
+c000000004C7EA06700000000000000C5
+t1283367015
+s197
+i<QCCache.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/QuartzComposer/QCTypes.h
+c000000004C7EA06700000000000008B1
+t1283367015
+s2225
+i<QuartzCore/CVBase.h>
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin
+t1297965867
+s102
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist
+t1297965677
+s416
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta
+t1297965866
+s50092
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDelta.xml
+t1297965368
+s954
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDeltaUI.nib
+t1297965368
+s8379
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta
+t1297965865
+s14724
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.LinkFileList
+c000000004D5D632700000000000001A6
+t1297965863
+s422
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o
+t1297965416
+s23084
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o
+t1297965416
+s10848
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o
+t1297965416
+s6152
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta
+t1297965865
+s15168
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.LinkFileList
+c000000004D5D632700000000000001A3
+t1297965863
+s419
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o
+t1297965410
+s23536
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o
+t1297965410
+s11048
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o
+t1297965410
+s6368
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta
+t1297965865
+s16376
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.LinkFileList
+c000000004D5D632700000000000001AC
+t1297965863
+s428
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o
+t1297965418
+s26304
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o
+t1297965419
+s12996
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o
+t1297965419
+s7416
+
+N/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+c000000004D5D626A000000000000007F
+t1297965674
+s127
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDelta.xml
+c000000004C7EA06600000000000003BA
+t1283367014
+s954
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDeltaUI.nib
+c000000004C7EA06600000000000000CC
+t1283367014
+s204
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.h
+c000000004C7EA0670000000000000157
+t1283367015
+s343
+i"QCPatch.h"
+i"QCOpenGLContext.h"
+i"QCNumberPort.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m
+c000000004C7EA06700000000000003C0
+t1283367015
+s960
+i"MouseDelta.h"
+i"MouseDeltaUI.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.h
+c000000004C7EA06700000000000000B0
+t1283367015
+s176
+i"QCProtocols.h"
+i"GFNodeManager.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m
+c000000004C7EA0670000000000000184
+t1283367015
+s388
+i"MouseDeltaPrincipal.h"
+i"MouseDelta.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.h
+c000000004C7EA0670000000000000098
+t1283367015
+s152
+i<Cocoa/Cocoa.h>
+i"QCPatch.h"
+i"QCInspector.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m
+c000000004C7EA0670000000000000123
+t1283367015
+s291
+i"MouseDeltaUI.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch
+c000000004C7EA0670000000000000098
+t1283367015
+s152
+i<Cocoa/Cocoa.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/GFGraph.h
+c000000004C7EA06700000000000009A2
+t1283367015
+s2466
+i<GFNode.h>
+i<GFList.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/GFList.h
+c000000004C7EA0670000000000000861
+t1283367015
+s2145
+i"QCTypes.h"
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/GFNode.h
+c000000004C7EA0670000000000000D2C
+t1283367015
+s3372
+i<QCProtocols.h>
+i<GFList.h>
+i<GFNodeClassDescription.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/GFNodeClassDescription.h
+c000000004C7EA06700000000000002A7
+t1283367015
+s679
+i<GFList.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/GFNodeManager.h
+c000000004C7EA067000000000000062C
+t1283367015
+s1580
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/GFPort.h
+c000000004C7EA06700000000000003F9
+t1283367015
+s1017
+i<GFNode.h>
+i<GFPort.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCBooleanPort.h
+c000000004C7EA067000000000000038B
+t1283367015
+s907
+i<QCPort.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCCGLContext.h
+c000000004C7EA0670000000000000E2C
+t1283367015
+s3628
+i<QCResource.h>
+i<QCPixelFormat.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCCache.h
+c000000004C7EA0670000000000000DC4
+t1283367015
+s3524
+i<QCProtocols.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCContext.h
+c000000004C7EA06700000000000003A1
+t1283367015
+s929
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCGraphicsContext.h
+c000000004C7EA06700000000000006B5
+t1283367015
+s1717
+i<QCContext.h>
+i<QCImageManager.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCImageManager.h
+c000000004C7EA0670000000000001741
+t1283367015
+s5953
+i<QCProtocols.h>
+i<QCCGLContext.h>
+i<QCResourcePool.h>
+i<GFList.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCInspector.h
+c000000004C7EA0670000000000000175
+t1283367015
+s373
+i<QCPatch.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCNumberPort.h
+c000000004C7EA0670000000000000416
+t1283367015
+s1046
+i<QCPort.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCOpenGLContext.h
+c000000004C7EA0670000000000000C6C
+t1283367015
+s3180
+i<QCGraphicsContext.h>
+i<QCCGLContext.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCPatch.h
+c000000004C7EA0670000000000001EE6
+t1283367015
+s7910
+i<GFGraph.h>
+i<QCPatchRenderingInfo.h>
+i<QCRenderState.h>
+i<QCBooleanPort.h>
+i<QCNumberPort.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCPatchRenderingInfo.h
+c000000004C7EA067000000000000021F
+t1283367015
+s543
+i<QCContext.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCPixelFormat.h
+c000000004C7EA06700000000000002D7
+t1283367015
+s727
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCPort.h
+c000000004C7EA0670000000000000966
+t1283367015
+s2406
+i<GFPort.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCProtocols.h
+c000000004C7EA067000000000000157D
+t1283367015
+s5501
+i<QCTypes.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCRenderState.h
+c000000004C7EA06700000000000000F7
+t1283367015
+s247
+i<QCContext.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCResource.h
+c000000004C7EA0670000000000000187
+t1283367015
+s391
+i<QCResourcePool.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCResourcePool.h
+c000000004C7EA06700000000000000C5
+t1283367015
+s197
+i<QCCache.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/QuartzComposer/QCTypes.h
+c000000004C7EA06700000000000008B1
+t1283367015
+s2225
+i<QuartzCore/CVBase.h>
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin
+t1297965457
+s102
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist
+t1297965368
+s766
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta
+t1297965457
+s52024
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDelta.xml
+t1297965368
+s954
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDeltaUI.nib
+t1297965368
+s8379
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta
+t1297965418
+s14720
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.LinkFileList
+c000000004D5D613800000000000001A0
+t1297965368
+s416
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o
+t1297965416
+s23084
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o
+t1297965416
+s10848
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o
+t1297965416
+s6152
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta
+t1297965418
+s15160
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.LinkFileList
+c000000004D5D6138000000000000019D
+t1297965368
+s413
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o
+t1297965410
+s23536
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o
+t1297965410
+s11048
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o
+t1297965410
+s6368
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta
+t2
+s0
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta.LinkFileList
+c000000004D5D613800000000000001A3
+t1297965368
+s419
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta.o
+t1297965418
+s26640
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaPrincipal.o
+t1297965418
+s13192
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaUI.o
+t1297965418
+s7168
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta
+t1297965419
+s16376
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.LinkFileList
+c000000004D5D613800000000000001A6
+t1297965368
+s422
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o
+t1297965418
+s26304
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o
+t1297965419
+s12996
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o
+t1297965419
+s7416
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-2BA4226B0BFBAF8300DE1E36.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+c000000004D5D626A000000000000007F
+t1297965674
+s127
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch.gch
+t1297965401
+s56776528
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch.gch
+t1297965404
+s50431568
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dvonzbywmzfhllfrlujaqntbkmdk/MouseDelta_Prefix.pch.gch
+t1297965185
+s53102192
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch.gch
+t1297965406
+s54187824
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch.gch
+t1297965399
+s53102192
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-gfcqpyfyzxhvshhgidsqxafxnjaj/MouseDelta_Prefix.pch.gch
+t1297965187
+s56776528
+
+N/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-hfpindlcmogjnadisxabmbrpcgzi/MouseDelta_Prefix.pch.gch
+t1297965192
+s54187824
+
+NInfo.plist
+c000000004C7EA0670000000000000314
+t1283367015
+s788
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319658663#319658663#0(0"0(0#1#0"8625133952#0"0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319658210.355787
+e319658216.490858
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m319658210#319658216#0(0"0(0#0#62"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m8618431840#1171"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/i386 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319658216.491167
+e319658216.681364
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m319658216#319658216#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m8671320768#1189"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/i386 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaPrincipal.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319658216.681481
+e319658216.847944
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m319658216#319658216#0(0"0(0#0#64"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m8615639232#1175"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/i386 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDeltaUI.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s319658206.487683
+e319658210.355676
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m319658206#319658210#0(0"0(0#0#62"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m8610745408#1178"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s319658206.489398
+e319658210.207705
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m319658206#319658210#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m8671288192#1196"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaPrincipal.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s319658210.208031
+e319658210.382842
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m319658210#319658210#0(0"0(0#0#64"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m8631213920#1182"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDeltaUI.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m normal ppc64 objective-c com.apple.compilers.gcc.4_2
+s319658218.012559
+e319658218.191994
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m
+xnormal
+xppc64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m319658218#319658218#0(0"0(0#0#62"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m8671241024#1184"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaPrincipal.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m normal ppc64 objective-c com.apple.compilers.gcc.4_2
+s319658218.192265
+e319658218.369118
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaPrincipal.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m
+xnormal
+xppc64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m319658218#319658218#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m8627814432#1202"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaPrincipal.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaUI.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m normal ppc64 objective-c com.apple.compilers.gcc.4_2
+s319658218.369229
+e319658218.530302
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaUI.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m
+xnormal
+xppc64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m319658218#319658218#0(0"0(0#0#64"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m8671241280#1188"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDeltaUI.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319658218.683220
+e319658218.858185
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m319658218#319658218#0(0"0(0#0#62"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m8610981344#1177"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/x86_64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaPrincipal.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319658218.858282
+e319658219.042783
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m319658218#319658219#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m8671241856#1195"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/x86_64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaPrincipal.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaPrincipal.o0#
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDeltaUI.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319658218.988878
+e319658219.162958
+r1
+xCompileC
+xbuild/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m319658218#319658219#0(0"0(0#0#64"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m8602397600#1181"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/x86_64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -include /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDeltaUI.m -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDeltaUI.o0#
+
+CCpResource build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDelta.xml English.lproj/MouseDelta.xml
+s319658168.581483
+e319658168.618115
+r1
+xCpResource
+xbuild/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDelta.xml
+xEnglish.lproj/MouseDelta.xml
+lSLF07#2@33"Copy English.lproj/MouseDelta.xml319658168#319658168#0(0"0(0#0#78"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDelta.xml8616269728#417"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDelta.xml /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Resources/English.lproj0#
+
+CCreateUniversalBinary /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta normal "x86_64 i386 ppc"
+s319658665.421325
+e319658665.427707
+r1
+xCreateUniversalBinary
+x/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@108"CreateUniversalBinary build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta normal "x86_64 i386 ppc"319658665#319658665#0(0"0(0#0#67"/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/x86_64 i386 ppc8618739072#613"    cd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    /usr/bin/lipo -create /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta -output /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta0#
+
+CCreateUniversalBinary /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta normal "ppc i386 ppc64 x86_64"
+r0
+
+CCreateUniversalBinary /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta normal "x86_64 i386 ppc"
+s319658257.815966
+e319658257.819964
+r1
+xCreateUniversalBinary
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@108"CreateUniversalBinary build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta normal "x86_64 i386 ppc"319658257#319658257#0(0"0(0#0#65"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/x86_64 i386 ppc8621061952#603"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /usr/bin/lipo -create /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta -output /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/MacOS/MouseDelta0#
+
+CLd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta normal i386
+s319658663.633073
+e319658665.325176
+r1
+xLd
+x/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta
+xnormal
+xi386
+lSLF07#2@139"Link /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta319658663#319658665#0(0"0(0#0#0"8654323328#602"    cd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -L/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development -F/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development -filelist /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta0#
+
+CLd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta normal ppc
+s319658665.310784
+e319658665.421082
+r1
+xLd
+x/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta
+xnormal
+xppc
+lSLF07#2@138"Link /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta319658665#319658665#0(0"0(0#0#0"8623426304#599"    cd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -L/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development -F/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development -filelist /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta0#
+
+CLd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta normal x86_64
+s319658663.630382
+e319658665.309022
+r1
+xLd
+x/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta
+xnormal
+xx86_64
+lSLF07#2@141"Link /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta319658663#319658665#0(0"0(0#0#0"8667196384#608"    cd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -L/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development -F/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development -filelist /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta0#
+
+CLd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta normal i386
+s319658216.848039
+e319658218.988766
+r1
+xLd
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta
+xnormal
+xi386
+lSLF07#2@137"Link /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta319658216#319658218#0(0"0(0#0#0"8631188512#592"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -L/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -filelist /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta0#
+
+CLd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta normal ppc
+s319658210.382939
+e319658218.012345
+r1
+xLd
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta
+xnormal
+xppc
+lSLF07#2@136"Link /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta319658210#319658218#0(0"0(0#0#0"8612197920#589"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch ppc -bundle -L/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -filelist /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta0#
+
+CLd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta normal ppc64
+s319658218.530464
+e319658218.683120
+r0
+xLd
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta
+xnormal
+xppc64
+old: warning: in /usr/lib/bundle1.o, missing required architecture ppc64 in file
+old: warning: in /System/Library/Frameworks//Cocoa.framework/Cocoa, missing required architecture ppc64 in file
+old: warning: in /System/Library/Frameworks//OpenGL.framework/OpenGL, missing required architecture ppc64 in file
+old: warning: in /System/Library/Frameworks//Quartz.framework/Quartz, missing required architecture ppc64 in file
+old: warning: in /usr/lib/libSystemStubs.a, missing required architecture ppc64 in file
+old: warning: in /usr/lib/libSystem.dylib, missing required architecture ppc64 in file
+oUndefined symbols:
+o  "_OBJC_CLASS_$_QCPatch", referenced from:
+o      _OBJC_CLASS_$_MouseDelta in MouseDelta.o
+o  "_OBJC_METACLASS_$_QCPatch", referenced from:
+o      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o
+o  "__objc_empty_vtable", referenced from:
+o      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o
+o      _OBJC_CLASS_$_MouseDelta in MouseDelta.o
+o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o      _OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o
+o      _OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o
+o  "_OBJC_CLASS_$_QCInspector", referenced from:
+o      _OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o
+o  "_objc_msgSend", referenced from:
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      -[MouseDelta execute:time:arguments:] in MouseDelta.o
+o      +[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o
+o      +[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o
+o      +[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o
+o     (maybe you meant: l_objc_msgSend_fixup_class$non_lazy_ptr, l_objc_msgSend_fixup_objectForKey_$non_lazy_ptr , l_objc_msgSend_fixup_objectForKey_ , l_objc_msgSend_fixup_class )
+o  "_objc_msgSend_fixup", referenced from:
+o      l_objc_msgSend_fixup_objectForKey_ in MouseDelta.o
+o      l_objc_msgSend_fixup_class in MouseDeltaPrincipal.o
+o     (maybe you meant: l_objc_msgSend_fixup_class$non_lazy_ptr, l_objc_msgSend_fixup_objectForKey_$non_lazy_ptr , l_objc_msgSend_fixup_objectForKey_ , l_objc_msgSend_fixup_class )
+o  "__objc_empty_cache", referenced from:
+o      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o
+o      _OBJC_CLASS_$_MouseDelta in MouseDelta.o
+o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o      _OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o
+o      _OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o
+o  "_OBJC_METACLASS_$_QCInspector", referenced from:
+o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o
+o  "_OBJC_CLASS_$_NSObject", referenced from:
+o      _OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o  "___CFConstantStringClassReference", referenced from:
+o      cfstring=QCRuntimeEventKey in MouseDelta.o
+o      cfstring=QCRuntimeMouseLocationKey in MouseDelta.o
+o      cfstring=MouseDeltaUI in MouseDeltaUI.o
+o      cfstring=MouseDelta in MouseDeltaUI.o
+o  "_OBJC_METACLASS_$_NSObject", referenced from:
+o      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o
+o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o
+o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@138"Link /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta319658218#319658218#0(3782"ld: warning: in /usr/lib/bundle1.o, missing required architecture ppc64 in fileld: warning: in /System/Library/Frameworks//Cocoa.framework/Cocoa, missing required architecture ppc64 in fileld: warning: in /System/Library/Frameworks//OpenGL.framework/OpenGL, missing required architecture ppc64 in fileld: warning: in /System/Library/Frameworks//Quartz.framework/Quartz, missing required architecture ppc64 in fileld: warning: in /usr/lib/libSystemStubs.a, missing required architecture ppc64 in fileld: warning: in /usr/lib/libSystem.dylib, missing required architecture ppc64 in fileUndefined symbols:  "_OBJC_CLASS_$_QCPatch", referenced from:      _OBJC_CLASS_$_MouseDelta in MouseDelta.o  "_OBJC_METACLASS_$_QCPatch", referenced from:      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o  "__objc_empty_vtable", referenced from:      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o      _OBJC_CLASS_$_MouseDelta in MouseDelta.o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o      _OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o      _OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o  "_OBJC_CLASS_$_QCInspector", referenced from:      _OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o  "_objc_msgSend", referenced from:      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      -[MouseDelta execute:time:arguments:] in MouseDelta.o      +[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o      +[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o      +[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o     (maybe you meant: l_objc_msgSend_fixup_class$non_lazy_ptr, l_objc_msgSend_fixup_objectForKey_$non_lazy_ptr , l_objc_msgSend_fixup_objectForKey_ , l_objc_msgSend_fixup_class )  "_objc_msgSend_fixup", referenced from:      l_objc_msgSend_fixup_objectForKey_ in MouseDelta.o      l_objc_msgSend_fixup_class in MouseDeltaPrincipal.o     (maybe you meant: l_objc_msgSend_fixup_class$non_lazy_ptr, l_objc_msgSend_fixup_objectForKey_$non_lazy_ptr , l_objc_msgSend_fixup_objectForKey_ , l_objc_msgSend_fixup_class )  "__objc_empty_cache", referenced from:      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o      _OBJC_CLASS_$_MouseDelta in MouseDelta.o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o      _OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o      _OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o  "_OBJC_METACLASS_$_QCInspector", referenced from:      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o  "_OBJC_CLASS_$_NSObject", referenced from:      _OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o  "___CFConstantStringClassReference", referenced from:      cfstring=QCRuntimeEventKey in MouseDelta.o      cfstring=QCRuntimeMouseLocationKey in MouseDelta.o      cfstring=MouseDeltaUI in MouseDeltaUI.o      cfstring=MouseDelta in MouseDeltaUI.o  "_OBJC_METACLASS_$_NSObject", referenced from:      _OBJC_METACLASS_$_MouseDelta in MouseDelta.o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o      _OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o      _OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.old: symbol(s) not foundcollect2: ld returned 1 exit status60(22@66"In /usr/lib/bundle1.o, missing required architecture ppc64 in file319658218#0#80#0(6@0"319658218#0#0#0#0#0"0(22@97"In /System/Library/Frameworks//Cocoa.framework/Cocoa, missing required architecture ppc64 in file319658218#80#111#0(6@0"319658218#0#0#0#0#0"0(22@99"In /System/Library/Frameworks//OpenGL.framework/OpenGL, missing required architecture ppc64 in file319658218#191#113#0(6@0"319658218#0#0#0#0#0"0(22@99"In /System/Library/Frameworks//Quartz.framework/Quartz, missing required architecture ppc64 in file319658218#304#113#0(6@0"319658218#0#0#0#0#0"0(22@73"In /usr/lib/libSystemStubs.a, missing required architecture ppc64 in file319658218#417#87#0(6@0"319658218#0#0#0#0#0"0(22@72"In /usr/lib/libSystem.dylib, missing required architecture ppc64 in file319658218#504#86#0(6@0"319658218#0#0#0#0#0"0(4@41""_OBJC_CLASS_$_QCPatch", referenced from:319658218#609#44#0(6@0"319658218#0#0#0#0#0"0(13@40"_OBJC_CLASS_$_MouseDelta in MouseDelta.o319658218#653#47#0(6@0"319658218#0#0#0#0#0"0(4@45""_OBJC_METACLASS_$_QCPatch", referenced from:319658218#700#48#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_METACLASS_$_MouseDelta in MouseDelta.o319658218#748#51#0(6@0"319658218#0#0#0#0#0"0(4@39""__objc_empty_vtable", referenced from:319658218#799#42#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_METACLASS_$_MouseDelta in MouseDelta.o319658218#841#51#0(6@0"319658218#0#0#0#0#0"0(13@40"_OBJC_CLASS_$_MouseDelta in MouseDelta.o319658218#892#47#0(6@0"319658218#0#0#0#0#0"0(13@59"_OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#939#66#0(6@0"319658218#0#0#0#0#0"0(13@55"_OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#1005#62#0(6@0"319658218#0#0#0#0#0"0(13@48"_OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#1067#55#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#1122#51#0(6@0"319658218#0#0#0#0#0"0(4@45""_OBJC_CLASS_$_QCInspector", referenced from:319658218#1173#48#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#1221#51#0(6@0"319658218#0#0#0#0#0"0(4@33""_objc_msgSend", referenced from:319658218#1272#36#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1308#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1368#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1428#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1488#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1548#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1608#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1668#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1728#60#0(6@0"319658218#0#0#0#0#0"0(13@53"-[MouseDelta execute:time:arguments:] in MouseDelta.o319658218#1788#60#0(6@0"319658218#0#0#0#0#0"0(13@70"+[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o319658218#1848#77#0(6@0"319658218#0#0#0#0#0"0(13@70"+[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o319658218#1925#77#0(6@0"319658218#0#0#0#0#0"0(13@70"+[MouseDeltaPlugin registerNodesWithManager:] in MouseDeltaPrincipal.o319658218#2002#77#0(6@0"319658218#0#0#0#0#0"0(13@174"(maybe you meant: l_objc_msgSend_fixup_class$non_lazy_ptr, l_objc_msgSend_fixup_objectForKey_$non_lazy_ptr , l_objc_msgSend_fixup_objectForKey_ , l_objc_msgSend_fixup_class )319658218#2079#180#0(6@0"319658218#0#0#0#0#0"0(4@39""_objc_msgSend_fixup", referenced from:319658218#2259#42#0(6@0"319658218#0#0#0#0#0"0(13@50"L_objc_msgSend_fixup_objectForKey_ in MouseDelta.o319658218#2301#57#0(6@0"319658218#0#0#0#0#0"0(13@51"L_objc_msgSend_fixup_class in MouseDeltaPrincipal.o319658218#2358#58#0(6@0"319658218#0#0#0#0#0"0(13@174"(maybe you meant: l_objc_msgSend_fixup_class$non_lazy_ptr, l_objc_msgSend_fixup_objectForKey_$non_lazy_ptr , l_objc_msgSend_fixup_objectForKey_ , l_objc_msgSend_fixup_class )319658218#2416#180#0(6@0"319658218#0#0#0#0#0"0(4@38""__objc_empty_cache", referenced from:319658218#2596#41#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_METACLASS_$_MouseDelta in MouseDelta.o319658218#2637#51#0(6@0"319658218#0#0#0#0#0"0(13@40"_OBJC_CLASS_$_MouseDelta in MouseDelta.o319658218#2688#47#0(6@0"319658218#0#0#0#0#0"0(13@59"_OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#2735#66#0(6@0"319658218#0#0#0#0#0"0(13@55"_OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#2801#62#0(6@0"319658218#0#0#0#0#0"0(13@48"_OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#2863#55#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_CLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#2918#51#0(6@0"319658218#0#0#0#0#0"0(4@49""_OBJC_METACLASS_$_QCInspector", referenced from:319658218#2969#52#0(6@0"319658218#0#0#0#0#0"0(13@48"_OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#3021#55#0(6@0"319658218#0#0#0#0#0"0(4@42""_OBJC_CLASS_$_NSObject", referenced from:319658218#3076#45#0(6@0"319658218#0#0#0#0#0"0(13@55"_OBJC_CLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#3121#62#0(6@0"319658218#0#0#0#0#0"0(4@53""___CFConstantStringClassReference", referenced from:319658218#3183#56#0(6@0"319658218#0#0#0#0#0"0(13@42"Cfstring=QCRuntimeEventKey in MouseDelta.o319658218#3239#49#0(6@0"319658218#0#0#0#0#0"0(13@50"Cfstring=QCRuntimeMouseLocationKey in MouseDelta.o319658218#3288#57#0(6@0"319658218#0#0#0#0#0"0(13@39"Cfstring=MouseDeltaUI in MouseDeltaUI.o319658218#3345#46#0(6@0"319658218#0#0#0#0#0"0(13@37"Cfstring=MouseDelta in MouseDeltaUI.o319658218#3391#44#0(6@0"319658218#0#0#0#0#0"0(4@46""_OBJC_METACLASS_$_NSObject", referenced from:319658218#3435#49#0(6@0"319658218#0#0#0#0#0"0(13@44"_OBJC_METACLASS_$_MouseDelta in MouseDelta.o319658218#3484#51#0(6@0"319658218#0#0#0#0#0"0(13@59"_OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#3535#66#0(6@0"319658218#0#0#0#0#0"0(13@59"_OBJC_METACLASS_$_MouseDeltaPlugin in MouseDeltaPrincipal.o319658218#3601#66#0(6@0"319658218#0#0#0#0#0"0(13@48"_OBJC_METACLASS_$_MouseDeltaUI in MouseDeltaUI.o319658218#3667#55#0(6@0"319658218#0#0#0#0#0"0(13@19"Symbol(s) not found319658218#3722#24#0(6@0"319658218#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status319658218#3746#36#0(6@0"319658218#0#0#0#0#0"0(0#0#0"8638056800#595"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch ppc64 -bundle -L/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -filelist /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc64/MouseDelta1#
+
+CLd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta normal x86_64
+s319658219.163056
+e319658219.267732
+r1
+xLd
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta
+xnormal
+xx86_64
+lSLF07#2@139"Link /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta319658219#319658219#0(0"0(0#0#0"8619957408#598"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -L/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -filelist /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.LinkFileList -framework Cocoa -framework OpenGL -framework Quartz -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta0#
+
+CPhaseScriptExecution "Run Script" /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+s319658474.803705
+e319658477.242785
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+oKineme Plugin Post-Processing.
+o
+oProcessing /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin
+o   * Branding With Icon...
+o### Rez - SysError 0 during open of "/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon".
+oFatal Error!
+o### Rez - Fatal Error, can't recover.
+o/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon: ### Rez - Since errors occurred, /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Icon's resource fork was not written.
+o   * Stripping...
+o   * Setting Bundle Version...
+o   * Installing...
+lSLF07#2@36"Run custom shell script 'Run Script'319658474#319658477#0(609"Kineme Plugin Post-Processing.Processing /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin   * Branding With Icon...### Rez - SysError 0 during open of "/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon".Fatal Error!### Rez - Fatal Error, can't recover./Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon: ### Rez - Since errors occurred, /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Icon's resource fork was not written.   * Stripping...   * Setting Bundle Version...   * Installing...10(13@31"Kineme Plugin Post-Processing.319658476#0#31#0(1@0"0(13@97"Processing /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin319658476#32#97#0(1@0"0(13@27"   * Branding With Icon...319658476#129#27#0(1@0"0(13@107"### Rez - SysError 0 during open of "/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon".319658476#156#107#0(1@0"0(13@13"Fatal Error!319658476#263#13#0(1@0"0(13@38"### Rez - Fatal Error, can't recover.319658476#276#38#0(1@0"0(13@227"/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon: ### Rez - Since errors occurred, /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Icon's resource fork was not written.319658476#314#227#0(1@0"0(13@18"   * Stripping...319658476#541#18#0(1@0"0(13@31"   * Setting Bundle Version...319658476#559#31#0(1@0"0(13@19"   * Installing...319658477#590#19#0(1@0"0(0#0#0"8654769536#17228"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jaymie    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build    setenv BUILD_ROOT /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build    setenv BUILD_STYLE Development    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development    setenv CACHE_ROOT /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Development    setenv CONFIGURATION_BUILD_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development    setenv CONFIGURATION_TEMP_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development    setenv CONTENTS_FOLDER_PATH MouseDelta.plugin/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH MouseDelta.plugin/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/MouseDelta.dst    setenv DWARF_DSYM_FILE_NAME MouseDelta.plugin.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MouseDelta.plugin/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH MouseDelta.plugin/Contents/MacOS    setenv EXECUTABLE_NAME MouseDelta    setenv EXECUTABLE_PATH MouseDelta.plugin/Contents/MacOS/MouseDelta    setenv FILE_LIST /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MouseDelta.plugin/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MouseDelta.plugin    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER MouseDelta_Prefix.pch    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH MouseDelta.plugin/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH MouseDelta.plugin/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/MouseDelta.dst/Users/jaymie/Library/Bundles    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jaymie    setenv INSTALL_PATH /Users/jaymie/Library/Bundles    setenv INSTALL_ROOT /tmp/MouseDelta.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MouseDelta.plugin/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta-LinkMap-normal-ppc.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.LinkFileList    setenv LINK_FILE_LIST_normal_ppc /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH MouseDelta.plugin/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal    setenv OBJROOT /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MouseDelta.plugin/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/PkgInfo    setenv PKGINFO_PATH MouseDelta.plugin/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH MouseDelta.plugin/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MouseDelta.plugin/Contents/PrivateHeaders    setenv PRODUCT_NAME MouseDelta    setenv PRODUCT_SETTINGS_PATH /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT MouseDelta    setenv PROJECT_DERIVED_FILE_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/DerivedSources    setenv PROJECT_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv PROJECT_FILE_PATH /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta.xcodeproj    setenv PROJECT_NAME MouseDelta    setenv PROJECT_TEMP_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build    setenv PUBLIC_HEADERS_FOLDER_PATH MouseDelta.plugin/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MouseDelta.plugin/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MouseDelta.plugin/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MouseDelta.plugin/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv SRCROOT /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SYMBOL_REPOSITORY_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/SymbolRepositories    setenv SYMROOT /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME MouseDelta    setenv TARGET_BUILD_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development    setenv TARGET_NAME MouseDelta    setenv TARGET_TEMP_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_FILES_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_FILE_DIR /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_ROOT /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MouseDelta.plugin/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER jaymie    setenv USER_APPS_DIR /Users/jaymie/Applications    setenv USER_LIBRARY_DIR /Users/jaymie/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MouseDelta.plugin/Contents/version.plist    setenv VERSION_INFO_BUILDER jaymie    setenv VERSION_INFO_FILE MouseDelta_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MouseDelta  PROJECT:MouseDelta-\""    setenv WRAPPER_EXTENSION plugin    setenv WRAPPER_NAME MouseDelta.plugin    setenv WRAPPER_SUFFIX .plugin    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh0#
+
+CPhaseScriptExecution Install /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-2BA4226B0BFBAF8300DE1E36.sh
+r0
+
+CPhaseScriptExecution PostProcessing /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+s319658665.427835
+e319658667.137605
+r1
+xPhaseScriptExecution
+xPostProcessing
+x/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh
+oKineme Plugin Post-Processing.
+o
+oProcessing /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin
+o   * Branding With Icon...
+o### Rez - SysError 0 during open of "/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon".
+oFatal Error!
+o### Rez - Fatal Error, can't recover.
+o/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon: ### Rez - Since errors occurred, /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Icon's resource fork was not written.
+o   * Stripping...
+o   * Setting Bundle Version...
+o   * Installing...
+lSLF07#2@40"Run custom shell script 'PostProcessing'319658665#319658667#0(613"Kineme Plugin Post-Processing.Processing /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin   * Branding With Icon...### Rez - SysError 0 during open of "/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon".Fatal Error!### Rez - Fatal Error, can't recover./Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon: ### Rez - Since errors occurred, /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Icon's resource fork was not written.   * Stripping...   * Setting Bundle Version...   * Installing...10(13@31"Kineme Plugin Post-Processing.319658666#0#31#0(1@0"0(13@99"Processing /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin319658666#32#99#0(1@0"0(13@27"   * Branding With Icon...319658666#131#27#0(1@0"0(13@107"### Rez - SysError 0 during open of "/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon".319658666#158#107#0(1@0"0(13@13"Fatal Error!319658666#265#13#0(1@0"0(13@38"### Rez - Fatal Error, can't recover.319658666#278#38#0(1@0"0(13@229"/Library/Frameworks/SkankySDK.framework/Resources/KinemeOrange.icon: ### Rez - Since errors occurred, /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Icon's resource fork was not written.319658666#316#229#0(1@0"0(13@18"   * Stripping...319658666#545#18#0(1@0"0(13@31"   * Setting Bundle Version...319658667#563#31#0(1@0"0(13@19"   * Installing...319658667#594#19#0(1@0"0(0#0#0"8619518496#17320"    cd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER jaymie    setenv ALWAYS_SEARCH_USER_PATHS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386 ppc"    setenv ARCHS_STANDARD_32_BIT "i386 ppc"    setenv ARCHS_STANDARD_64_BIT x86_64    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build    setenv BUILD_ROOT /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build    setenv BUILD_STYLE Development    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development    setenv CACHE_ROOT /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin    setenv CODE_SIGNING_ALLOWED YES    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv CONFIGURATION Development    setenv CONFIGURATION_BUILD_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development    setenv CONFIGURATION_TEMP_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development    setenv CONTENTS_FOLDER_PATH MouseDelta.plugin/Contents    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH ppc    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH MouseDelta.plugin/Contents/Resources/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/MouseDelta.dst    setenv DWARF_DSYM_FILE_NAME MouseDelta.plugin.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn .git CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH MouseDelta.plugin/Contents/Executables    setenv EXECUTABLE_FOLDER_PATH MouseDelta.plugin/Contents/MacOS    setenv EXECUTABLE_NAME MouseDelta    setenv EXECUTABLE_PATH MouseDelta.plugin/Contents/MacOS/MouseDelta    setenv FILE_LIST /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH MouseDelta.plugin/Contents/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME MouseDelta.plugin    setenv GCC3_VERSION 3.3    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE YES    setenv GCC_GENERATE_DEBUGGING_SYMBOLS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER MouseDelta_Prefix.pch    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT same-as-input    setenv INFOPLIST_PATH MouseDelta.plugin/Contents/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH MouseDelta.plugin/Contents/Resources/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/MouseDelta.dst/Users/jaymie/Library/Bundles    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER jaymie    setenv INSTALL_PATH /Users/jaymie/Library/Bundles    setenv INSTALL_ROOT /tmp/MouseDelta.dst    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH MouseDelta.plugin/Contents/Resources/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta-LinkMap-normal-ppc.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/i386/MouseDelta.LinkFileList    setenv LINK_FILE_LIST_normal_ppc /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/ppc/MouseDelta.LinkFileList    setenv LINK_FILE_LIST_normal_x86_64 /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal/x86_64/MouseDelta.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH MouseDelta.plugin/Contents/Resources/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Objects-normal    setenv OBJROOT /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH MouseDelta.plugin/Contents/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/PkgInfo    setenv PKGINFO_PATH MouseDelta.plugin/Contents/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr    setenv PLATFORM_NAME macosx    setenv PLATFORM_PRODUCT_BUILD_VERSION 10M2423    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input    setenv PLUGINS_FOLDER_PATH MouseDelta.plugin/Contents/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH MouseDelta.plugin/Contents/PrivateHeaders    setenv PRODUCT_NAME MouseDelta    setenv PRODUCT_SETTINGS_PATH /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT MouseDelta    setenv PROJECT_DERIVED_FILE_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/DerivedSources    setenv PROJECT_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    setenv PROJECT_FILE_PATH /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/MouseDelta.xcodeproj    setenv PROJECT_NAME MouseDelta    setenv PROJECT_TEMP_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build    setenv PUBLIC_HEADERS_FOLDER_PATH MouseDelta.plugin/Contents/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH MouseDelta.plugin/Contents/Resources/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT     setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH MouseDelta.plugin/Contents/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH MouseDelta.plugin/Contents/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    setenv SRCROOT /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SYMBOL_REPOSITORY_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/SymbolRepositories    setenv SYMROOT /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME MouseDelta    setenv TARGET_BUILD_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development    setenv TARGET_NAME MouseDelta    setenv TARGET_TEMP_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_FILES_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_FILE_DIR /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build    setenv TEMP_ROOT /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MouseDelta.plugin/Contents/Resources    setenv UNSTRIPPED_PRODUCT NO    setenv USER jaymie    setenv USER_APPS_DIR /Users/jaymie/Applications    setenv USER_LIBRARY_DIR /Users/jaymie/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 ppc ppc64 ppc7400 ppc970 x86_64"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH MouseDelta.plugin/Contents/version.plist    setenv VERSION_INFO_BUILDER jaymie    setenv VERSION_INFO_FILE MouseDelta_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MouseDelta  PROJECT:MouseDelta-\""    setenv WRAPPER_EXTENSION plugin    setenv WRAPPER_NAME MouseDelta.plugin    setenv WRAPPER_SUFFIX .plugin    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 10M2423    setenv XCODE_VERSION_ACTUAL 0325    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv ZERO_LINK NO    /bin/sh -c /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/Script-E704279E130D99BE00F2BCDE.sh0#
+
+CProcessInfoPlistFile /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist Info.plist
+r0
+
+CProcessInfoPlistFile /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist Info.plist
+s319658168.578465
+e319658168.581414
+r1
+xProcessInfoPlistFile
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist319658168#319658168#0(0"0(0#0#60"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/Info.plist8618812576#244"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Info.plist0#
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319658168.696636
+e319658202.606226
+r1
+xProcessPCH
+x/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch.gch
+xMouseDelta_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MouseDelta_Prefix.pch319658168#319658202#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch8612884352#1047"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/i386 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch -o /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-bqmvaqlaamjvuzfrjponuzpnfist/MouseDelta_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal ppc64 objective-c com.apple.compilers.gcc.4_2
+s319658199.783303
+e319658204.807870
+r1
+xProcessPCH
+x/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch.gch
+xMouseDelta_Prefix.pch
+xnormal
+xppc64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MouseDelta_Prefix.pch319658199#319658204#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch8615310816#1059"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch -o /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dqhnjjkvegpqdydoudozmxrzcept/MouseDelta_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-dvonzbywmzfhllfrlujaqntbkmdk/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s319658202.606452
+e319658206.487484
+r1
+xProcessPCH
+x/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch.gch
+xMouseDelta_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MouseDelta_Prefix.pch319658202#319658206#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch8616656800#1051"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/x86_64 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch -o /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-eutzbfrtgzjgqmgelsppksqeroud/MouseDelta_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s319658168.695534
+e319658199.783071
+r1
+xProcessPCH
+x/var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch.gch
+xMouseDelta_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile MouseDelta_Prefix.pch319658168#319658199#0(0"0(0#0#71"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch8619083520#1055"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -mfix-and-continue -mtune=G5 -gdwarf-2 -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/MouseDelta.hmap -F/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/include -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources/ppc -I/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/MouseDelta.build/Development/MouseDelta.build/DerivedSources -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/MouseDelta_Prefix.pch -o /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-fbgybmczxexhbcflrefddkginzue/MouseDelta_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-gfcqpyfyzxhvshhgidsqxafxnjaj/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/l0/l0JTY1yrHVyI-wLWRDrCW++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MouseDelta_Prefix-hfpindlcmogjnadisxabmbrpcgzi/MouseDelta_Prefix.pch.gch MouseDelta_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CStripNIB /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/English.lproj/MouseDeltaUI.nib
+r0
+
+CStripNIB /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDeltaUI.nib
+s319658168.582234
+e319658168.695409
+r1
+xStripNIB
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDeltaUI.nib
+lSLF07#2@39"StripNIB English.lproj/MouseDeltaUI.nib319658168#319658168#0(0"0(0#0#80"/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDeltaUI.nib8615452256#348"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /Developer/usr/bin/ibtool --strip /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin/Contents/Resources/English.lproj/MouseDeltaUI.nib --output-format human-readable-text /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/English.lproj/MouseDeltaUI.nib0#
+
+CTouch /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin
+s319658667.140189
+e319658667.143795
+r1
+xTouch
+x/Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin
+lSLF07#2@93"Touch /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin319658667#319658667#0(0"0(0#0#0"8614829632#169"    cd /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta    /usr/bin/touch -c /Users/jaymie/Desktop/SkankySDK/examples/MouseDelta/build/Development/MouseDelta.plugin0#
+
+CTouch /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin
+s319658257.820052
+e319658257.822594
+r1
+xTouch
+x/Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin
+lSLF07#2@91"Touch /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin319658257#319658257#0(0"0(0#0#0"8620974272#165"    cd /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta    /usr/bin/touch -c /Users/jaymie/kosada/svn/prj/qc/plugin/MouseDelta/build/Development/MouseDelta.plugin0#
+
