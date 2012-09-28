@@ -1,5 +1,5 @@
 {
-	MainTemplateFile = "class.m";
-	"CounterpartTemplateFile" = "class.h";
+	MainTemplateFile = "___FILEBASENAME___.m";
+	"CounterpartTemplateFile" = "___FILEBASENAME___.h";
 	Description = "An Objective-C class file with stub SkankySDK Inspector Panel stubs.";
 }
