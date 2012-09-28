@@ -1,4 +1,4 @@
-//  ___PROJECTNAMEASIDENTIFIER___.h
+//  ___PROJECTNAMEASIDENTIFIER___Principal.h
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.

@@ -1,5 +1,7 @@
 #!/bin/sh
 
-rm -rf /Developer/Library/Xcode/Project\ Templates/Kineme\ SkankySDK/
-rm -rf /Developer/Library/Xcode/File\ Templates/Kineme\ SkankySDK/
-rm -rf /Library/Frameworks/SkankySDK.framework/
+cd "$(dirname "$0")"
+
+rm -rf "/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File Templates/Kineme SkankySDK"
+rm -rf "/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/Project Templates/Kineme SkankySDK"
+rm -rf /Library/Frameworks/SkankySDK.framework

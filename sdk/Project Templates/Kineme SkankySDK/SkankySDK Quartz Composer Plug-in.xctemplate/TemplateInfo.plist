@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.bundleBase</string>
+		<string>com.apple.dt.unit.macBase</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Definitions</key>
+	<dict>
+		<key>___PACKAGENAME___-Info.plist:quartz</key>
+		<string>&lt;key&gt;CFBundleDevelopmentRegion&lt;/key&gt;
+&lt;string&gt;English&lt;/string&gt;
+&lt;key&gt;CFBundleExecutable&lt;/key&gt;
+&lt;string&gt;${EXECUTABLE_NAME}&lt;/string&gt;
+&lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt;
+&lt;string&gt;6.0&lt;/string&gt;
+&lt;key&gt;CFBundleName&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+&lt;key&gt;CFBundlePackageType&lt;/key&gt;
+&lt;string&gt;BNDL&lt;/string&gt;
+&lt;key&gt;CFBundleVersion&lt;/key&gt;
+&lt;string&gt;1.0&lt;/string&gt;
+&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
+&lt;string&gt;1.1&lt;/string&gt;
+&lt;key&gt;NSPrincipalClass&lt;/key&gt;
+&lt;string&gt;___PROJECTNAMEASIDENTIFIER___Principal&lt;/string&gt;
+&lt;key&gt;GFPlugIn&lt;/key&gt;
+&lt;true/&gt;
+</string>
+		<key>___PROJECTNAMEASIDENTIFIER___-Prefix.pch</key>
+		<dict>
+			<key>Path</key>
+			<string>___PROJECTNAMEASIDENTIFIER___-Prefix.pch</string>
+		</dict>
+		<key>___PROJECTNAMEASIDENTIFIER___Principal.h</key>
+		<dict>
+			<key>Path</key>
+			<string>___PROJECTNAMEASIDENTIFIER___Principal.h</string>
+		</dict>
+		<key>___PROJECTNAMEASIDENTIFIER___Principal.m</key>
+		<dict>
+			<key>Path</key>
+			<string>___PROJECTNAMEASIDENTIFIER___Principal.m</string>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This template builds a custom patch for Quartz Composer as a QCPatch subclass using Kineme&apos;s SkankySDK.</string>
+	<key>Executables</key>
+	<array>
+		<dict>
+			<key>Reference</key>
+			<dict>
+				<key>Path</key>
+				<string>Applications/Quartz Composer.app</string>
+				<key>PathType</key>
+				<string>DeveloperDir</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Identifier</key>
+	<string>net.kineme.QCPatchXcodeTemplate</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>___PACKAGENAME___-Info.plist:quartz</string>
+		<string>___PACKAGENAME___-Info.plist:NSHumanReadableCopyright</string>
+		<string>___PROJECTNAMEASIDENTIFIER___Principal.h</string>
+		<string>___PROJECTNAMEASIDENTIFIER___Principal.m</string>
+		<string>___PROJECTNAMEASIDENTIFIER___-Prefix.pch:objC</string>
+	</array>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>SortOrder</key>
+	<integer>2</integer>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>BuildPhases</key>
+			<array>
+				<dict>
+					<key>Class</key>
+					<string>Sources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Frameworks</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>Resources</string>
+				</dict>
+				<dict>
+					<key>Class</key>
+					<string>ShellScript</string>
+					<key>ShellPath</key>
+					<string>/bin/sh</string>
+					<key>ShellScript</key>
+					<string># This shell script simply copies the built plug-in to &quot;~/Library/Graphics/Quartz Composer Patches&quot; and overrides any previous version at that location
+
+mkdir -p &quot;$USER_LIBRARY_DIR/Graphics/Quartz Composer Patches&quot;
+rm -rf &quot;$USER_LIBRARY_DIR/Graphics/Quartz Composer Patches/___PACKAGENAME___.plugin&quot;
+cp -rf &quot;$BUILT_PRODUCTS_DIR/___PACKAGENAME___.plugin&quot; &quot;$USER_LIBRARY_DIR/Graphics/Quartz Composer Patches/&quot;
+</string>
+				</dict>
+			</array>
+			<key>Frameworks</key>
+			<array>
+				<string>Cocoa</string>
+				<string>Quartz</string>
+			</array>
+			<key>Other Frameworks</key>
+			<array>
+				<string>SkankySDK</string>
+			</array>
+			<key>ProductType</key>
+			<string>com.apple.product-type.bundle</string>
+			<key>SharedSettings</key>
+			<dict>
+				<key>INSTALL_PATH</key>
+				<string>$(HOME)/Library/Graphics/Quartz Composer Patches</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>plugin</string>
+				<key>COMBINE_HIDPI_IMAGES</key>
+				<string>YES</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<string>$(inherited) &quot;$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks&quot; /Library/Frameworks</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
