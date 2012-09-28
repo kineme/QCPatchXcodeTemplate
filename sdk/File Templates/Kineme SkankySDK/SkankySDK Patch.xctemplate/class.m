@@ -1,6 +1,6 @@
-#import "ÇFILEBASENAMEASIDENTIFIERÈ.h"
+#import "___FILEBASENAMEASIDENTIFIER___.h"
 
-@implementation ÇFILEBASENAMEASIDENTIFIERÈ
+@implementation ___FILEBASENAMEASIDENTIFIER___
 +(BOOL)isSafe
 {
 	return NO;

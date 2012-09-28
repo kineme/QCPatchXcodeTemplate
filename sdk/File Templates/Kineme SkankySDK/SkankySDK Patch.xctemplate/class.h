@@ -1,4 +1,4 @@
-@interface ÇFILEBASENAMEASIDENTIFIERÈ : QCPatch
+@interface ___FILEBASENAMEASIDENTIFIER___ : QCPatch
 {
 	QCBooleanPort *inputBool;
 	QCBooleanPort *outputBool;
