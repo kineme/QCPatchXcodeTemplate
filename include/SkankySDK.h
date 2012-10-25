@@ -128,13 +128,6 @@ static inline BOOL KIOnSnowLeopard()
 	return NO;
 }
 
-static inline void KISetPatchInputValue(id patch,NSString *portKey,id value)
-{
-	QCPort *port = [patch valueForKey:portKey];
-	[port setValue:value];
-	object_setInstanceVariable([patch valueForKey:portKey],"_updated",(void *)YES);
-}
-
 #define KIRegisterPatch(patchClass) \
 	if( ![manager isNodeRegisteredWithName: NSStringFromClass([patchClass class])] ) \
 		[manager registerNodeWithClass:[patchClass class]]; \
