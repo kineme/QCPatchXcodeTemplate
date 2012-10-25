@@ -133,8 +133,6 @@ cp -rf &quot;$BUILT_PRODUCTS_DIR/___PACKAGENAME___.plugin&quot; &quot;$USER_LIBR
 				<string>plugin</string>
 				<key>COMBINE_HIDPI_IMAGES</key>
 				<string>YES</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<string>$(inherited) &quot;$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks&quot; /Library/Frameworks</string>
 			</dict>
 		</dict>
 	</array>
