@@ -1,6 +1,14 @@
-#import "ÇFILEBASENAMEASIDENTIFIERÈ.h"
+//
+//  ___FILENAME___
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//___COPYRIGHT___
+//
 
-@implementation ÇFILEBASENAMEASIDENTIFIERÈ
+#import "___FILEBASENAMEASIDENTIFIER___.h"
+
+@implementation ___FILEBASENAMEASIDENTIFIER___
 +(BOOL)isSafe
 {
 	return NO;

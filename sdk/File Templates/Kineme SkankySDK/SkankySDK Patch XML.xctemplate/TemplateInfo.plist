@@ -1,4 +1,4 @@
 {
-	MainTemplateFile = "class.xml";
+	MainTemplateFile = "___FILEBASENAME___.xml";
 	Description = "An XML file with stub SkankySDK metadata.";
 }
