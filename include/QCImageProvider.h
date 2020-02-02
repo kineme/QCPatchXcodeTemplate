@@ -1,7 +1,3 @@
-
-
-
-
 @interface QCImageProvider : NSObject <QCImageProvider>
 {
 	NSUInteger _identifier;	// 4 = 0x4
@@ -13,7 +9,7 @@
 + (id)createProviderWithSource:(id)fp8 options:(id)fp12;
 - (id)init;
 - (QCMD5Sum)providerMD5;
-- (id)sourceRepresentationType;
+- (NSString *)sourceRepresentationType;
 - (id)sourceRepresentation;
 - (id)domainOfDefinition;
 - (CGColorSpaceRef)colorSpace;

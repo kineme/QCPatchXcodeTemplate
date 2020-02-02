@@ -1,5 +1,3 @@
-
-
 #import "QCImageProvider.h"
 
 @class QCRegion;
@@ -18,7 +16,7 @@
 - (id)initWithCIImage:(id)fp8 options:(id)fp12;
 - (void)finalize;
 - (void)dealloc;
-- (id)sourceRepresentationType;
+- (NSString *)sourceRepresentationType;
 - (id)sourceRepresentation;
 - (id)domainOfDefinition;
 - (CGColorSpaceRef)colorSpace;

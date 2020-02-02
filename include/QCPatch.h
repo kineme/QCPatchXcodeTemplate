@@ -67,7 +67,7 @@ typedef enum
 	kQCPatchExecutionModeConsumer,	// 1 (e.g., "Clear", "Billboard", "Lighting")
 	kQCPatchExecutionModeProvider,	// 2 (e.g., "Mouse", "Interaction", "XML", "Directory Scanner", "Host Info")
 	kQCPatchExecutionModeRII1050,	// 3 --- 10.5: RII;     10.6: unused
-	kQCPatchExecutionModeRII1060,	// 4 --- 10.5: unused;  10.6: RII      ..?!
+	kQCPatchExecutionModeRII1060,	// 4 --- 10.5: unused;  10.6: RII      ..?!   auto, based on subpatches?
 									// >4 --- invalid (editor throws exception when drawing)
 } QCPatchExecutionMode;
 
@@ -80,10 +80,10 @@ typedef enum
 
 
 @interface QCPatch (Customization)
-+ (BOOL)isSafe;
-+ (QCPatchExecutionMode)executionModeWithIdentifier:(id)identifier;
-+ (BOOL)allowsSubpatchesWithIdentifier:(id)identifier;
-+ (QCPatchTimeMode)timeModeWithIdentifier:(id)identifier;
++ (BOOL)isSafe;															// defaults to NO if unimplemented
++ (QCPatchExecutionMode)executionModeWithIdentifier:(id)identifier;		// defaults to 0 (kQCPatchExecutionModeProcessor) if unimplemented
++ (BOOL)allowsSubpatchesWithIdentifier:(id)identifier;					// defaults to YES if unimplemented
++ (QCPatchTimeMode)timeModeWithIdentifier:(id)identifier;				// defaults to 0 (kQCPatchTimeModeNone) if unimplemented
 + (NSArray*)stateKeysWithIdentifier:(id)identifier;	// NSArray of NSStrings for state keys
 + (id)serializedStateKeysWithIdentifier:(id)identifier;
 + (BOOL)usesLocalContextForIdentifier:(id)identifier;
@@ -201,7 +201,7 @@ typedef enum
 - (id)performanceCounters;
 - (QCPatchRenderingInfo *)_renderingInfo;	// [QCPatchRenderingInfo context] is a QCOpenGLContext
 - (QCOpenGLRenderState *)_renderState;
-- (int)_executionMode;
+- (QCPatchExecutionMode)_executionMode;
 - (id)_enableInput;
 - (int)_checkExecutionMode;
 - (void)_invalidateExecutionMode;

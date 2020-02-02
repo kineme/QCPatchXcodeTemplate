@@ -1,4 +1,3 @@
-
 #import "QCImageProvider.h"
 
 @class QCRegion;
@@ -19,7 +18,7 @@
 - (id)initWithC3DImage:(struct __C3DImage *)fp8 options:(id)fp12;
 - (void)finalize;
 - (void)dealloc;
-- (id)sourceRepresentationType;
+- (NSString *)sourceRepresentationType;
 - (id)sourceRepresentation;
 - (id)domainOfDefinition;
 - (CGColorSpaceRef)colorSpace;

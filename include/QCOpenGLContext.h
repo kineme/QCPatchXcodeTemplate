@@ -23,13 +23,13 @@
 + (BOOL)isMultiThreaded;
 + (void)updateMultiThreaded;
 + (id)_providerTransformationForImage:(id)fp8 inBounds:(NSRect)fp12 toTextureWithTarget:(GLuint)fp28 maxSize:(NSUInteger)fp32 outBounds:(NSRect *)fp36;
-- (id)initWithOptions:(id)fp8;
+- (id)initWithOptions:(NSDictionary *)options;
 - (void)_finishInitialization;
-- (id)initWithOptions:(id)fp8 contextAttributes:(const int *)fp12;
-- (id)initWithCGLContext:(CGLContextObj)fp8 pixelFormat:(CGLPixelFormatObj)fp12 options:(id)fp16;
-- (id)initWithOpenGLContext:(id)fp8 options:(id)fp12;
-- (id)initWithImageManager:(id)fp8 openGLContext:(id)fp12 options:(id)fp16;
-- (id)initWithImageManager:(id)fp8 options:(id)fp12;
+- (id)initWithOptions:(NSDictionary *)options contextAttributes:(const int *)fp12;
+- (id)initWithCGLContext:(CGLContextObj)fp8 pixelFormat:(CGLPixelFormatObj)fp12 options:(NSDictionary *)options;
+- (id)initWithOpenGLContext:(QCCGLContext *)context options:(NSDictionary *)options;
+- (id)initWithImageManager:(id)fp8 openGLContext:(id)fp12 options:(NSDictionary *)options;
+- (id)initWithImageManager:(id)fp8 options:(NSDictionary *)options;
 - (void)finalize;
 - (void)dealloc;
 - (void)setOpenGLContext:(QCCGLContext *)context;
@@ -39,7 +39,7 @@
 - (CGLPixelFormatObj)CGLPixelFormatObj;
 - (CIContext*)CIContext;
 - (struct __C3DEngineContext *)C3DContext;
-- (id)initWithCGLContextObj:(CGLContextObj)fp8 pixelFormat:(CGLPixelFormatObj)fp12 options:(id)fp16;
+- (id)initWithCGLContextObj:(CGLContextObj)fp8 pixelFormat:(CGLPixelFormatObj)fp12 options:(NSDictionary *)options;
 - (void)willDestroyCGLContext;
 - (void)setOutputImageKey:(NSString*)outputImageKey;
 - (NSString*)outputImageKey;
@@ -56,7 +56,7 @@
 - (void)setBackgroundColor:(NSColor*)color checkerboardSize:(NSUInteger)size checkerboardWidth:(float)width height:(float)height inLiveResize:(BOOL)inLiveResize;
 - (void)invalidate;
 - (void)setColorSpace:(CGColorSpaceRef)fp8;
-- (BOOL)startRenderingPatch:(id)fp8 options:(id)fp12;
+- (BOOL)startRenderingPatch:(id)fp8 options:(NSDictionary *)options;
 - (void)pauseRenderingPatch:(id)fp8;
 - (void)_renderMesh:(id)fp8 arguments:(id)fp12;
 - (double)nextExecutionTimeForPatch:(id)fp8 time:(double)time arguments:(NSDictionary*)args;
@@ -74,7 +74,7 @@
 @end
 
 @interface QCOpenGLContext (NSOpenGLContext)
-- (id)initWithNSOpenGLContext:(id)fp8 format:(id)fp12 options:(id)fp16;
+- (id)initWithNSOpenGLContext:(id)fp8 format:(id)fp12 options:(NSDictionary *)options;
 @end
 // XXX These methods don't appear in objcdump64... weird? (perhaps they're 32bit only because FCP is 32bit only?)
 @interface QCOpenGLContext (FCPImageExtensions)

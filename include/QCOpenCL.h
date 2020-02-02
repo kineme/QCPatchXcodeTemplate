@@ -1,3 +1,5 @@
+struct _KernelExecutionInfo;
+
 @interface QCOpenCL : QCProgrammablePatch
 {
 	NSString *_kernelName;	// 196 = 0xc4

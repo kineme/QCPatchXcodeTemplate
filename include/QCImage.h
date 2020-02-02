@@ -15,7 +15,7 @@
 - (id)initWithProvider:(id)fp8 options:(id)fp12;
 - (void)dealloc;
 - (id)initWithImage:(id)fp8;
-- (id)provider;
+- (id<QCImageProvider>)provider;
 - (BOOL)isInfinite;
 - (NSRect)bounds;
 - (id)domainOfDefinition;

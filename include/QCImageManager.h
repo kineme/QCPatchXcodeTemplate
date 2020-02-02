@@ -44,7 +44,7 @@
 + (void)initialize;
 + (double)_maximumAvailableMemoryForRendererID:(int)fp8;
 + (id)sharedSoftwareImageManager;
-+ (id)createUniqueImageManagerForQCCGLContext:(id)fp8 options:(id)fp12;
++ (QCImageManager *)createUniqueImageManagerForQCCGLContext:(QCCGLContext *)context options:(NSDictionary *)options;
 - (id)initWithQCCGLContext:(id)fp8 options:(id)fp12;
 - (id)initWithOpenGLContext:(id)fp8 options:(id)fp12;
 - (void)_finalize_QCImageManager;

@@ -4,9 +4,9 @@
 }
 
 + (id)defaultRenderingOptions;	// always returns nil
-+ (id)_createAndRegisterUniqueContextForCGLContext:(CGLContextObj)context contextOwner:(id)fp12 pixelFormat:(CGLPixelFormatObj)fp16 formatOwner:(id)fp20 colorSpace:(CGColorSpaceRef)fp24 options:(id)fp28;
++ (id)_createAndRegisterUniqueContextForCGLContext:(CGLContextObj)context contextOwner:(id)fp12 pixelFormat:(CGLPixelFormatObj)fp16 formatOwner:(id)fp20 colorSpace:(CGColorSpaceRef)fp24 options:(NSDictionary *)options;
 + (void)_unregisterUniqueContext:(id)fp8;
-- (id)initWithRenderingContext:(id)fp8 patch:(id)fp12;
+- (id)initWithRenderingContext:(QCContext *)context patch:(QCPatch *)patch;
 - (id)init;
 - (id)initOffScreenWithPixelFormat:(NSOpenGLPixelFormat*)pixelFormat size:(NSSize)size colorSpace:(CGColorSpaceRef)colorSpace patch:(QCPatch*)patch;
 - (id)initWithCGLContext:(CGLContextObj)context pixelFormat:(CGLPixelFormatObj)pixelFormat colorSpace:(CGColorSpaceRef)colorSpace patch:(QCPatch*)patch;

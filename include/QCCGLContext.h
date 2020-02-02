@@ -24,11 +24,11 @@
 }
 
 + (void)initialize;
-+ (id)contextWithPixelFormatAttributes:(const int *)fp8 options:(id)fp12;
-+ (id)softwareContextForFormat:(id)fp8;
++ (id)contextWithPixelFormatAttributes:(const int *)fp8 options:(NSDictionary *)options;
++ (id)softwareContextForFormat:(QCPixelFormat *)format;
 + (id)hardwareContextForDisplay:(CGDirectDisplayID)display;
-- (id)initWithPixelFormatAttributes:(const int *)fp8 options:(id)fp12;
-- (id)initWithCGLContext:(CGLContextObj)fp8 pixelFormat:(CGLPixelFormatObj)fp12 options:(id)fp16;
+- (id)initWithPixelFormatAttributes:(const int *)fp8 options:(NSDictionary *)options;
+- (id)initWithCGLContext:(CGLContextObj)fp8 pixelFormat:(CGLPixelFormatObj)fp12 options:(NSDictionary *)options;
 - (void)_finalize_QCCGLContext;
 - (void)finalize;
 - (void)dealloc;
@@ -47,7 +47,7 @@
 - (NSUInteger)virtualScreen;
 - (NSUInteger)virtualScreenCount;
 - (id)createMinimalSharedContext;
-- (id)createMinimalSharedContextWithAdditionalAttributes:(const int *)fp8 recycleWhenDone:(BOOL)recycle;
+- (QCCGLContext *)createMinimalSharedContextWithAdditionalAttributes:(const int *)attributes recycleWhenDone:(BOOL)recycle;
 - (id)minimalSharedContextForCurrentThread;
 - (void)clearMinimalSharedContextForCurrentThread;
 - (void)setResourcePool:(id)fp8;
@@ -68,14 +68,14 @@
 @end
 
 @interface QCCGLContext (NSOpenGLContext)
-- (id)initWithOpenGLContext:(id)fp8 pixelFormat:(id)fp12 options:(id)fp16;
+- (id)initWithOpenGLContext:(id)fp8 pixelFormat:(id)fp12 options:(NSDictionary *)options;
 - (id)NSOpenGLContext;
 - (id)NSOpenGLPixelFormat;
 @end
 
 @interface QCCGLContext (QCGraphicsContext)
 + (id)copyGlobalRootContext;
-+ (id)createUniqueContextWithOptions:(id)fp8;
++ (id)createUniqueContextWithOptions:(NSDictionary *)options;
 @end
 
 @interface QCCGLContext (SnapshotImage)

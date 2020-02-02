@@ -28,7 +28,7 @@
 - (void)finalize;
 - (void)dealloc;
 - (CGAffineTransform *)imageTransform;
-- (id)sourceRepresentationType;
+- (NSString *)sourceRepresentationType;
 - (id)sourceRepresentation;
 - (QCMD5Sum)providerMD5;
 - (id)domainOfDefinition;

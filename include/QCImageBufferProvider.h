@@ -15,7 +15,7 @@
 - (id)initWithQCImageBuffer:(id)fp8 options:(id)fp12;
 - (void)dealloc;
 - (id)imageBuffer;
-- (id)sourceRepresentationType;
+- (NSString *)sourceRepresentationType;
 - (id)sourceRepresentation;
 - (id)domainOfDefinition;
 - (CGColorSpaceRef)colorSpace;
